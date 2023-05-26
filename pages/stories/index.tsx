@@ -40,11 +40,11 @@ export default function index({ mdTags }) {
         <div className='flex lg:ml-56 2xl:ml-80'>
           <h1 className="text-4xl font-bold font-mono">./Stories</h1>
         </div>
-        <div className='flex flex-col lg:ml-60 2xl:ml-96 ml-10 mt-12'>
+        <div className='flex flex-col lg:ml-60 2xl:ml-96 ml-4 mt-12'>
             {mdTags.map((folder) => (
               <>
                 <div className='flex flex-col mb-4'>
-                  <Link href={`/stories/${folder?.file.split('.')[0]}`} className='font-semibold font-mono hover:bg-blue-50'>.{folder?.title.slice(0, 100)}</Link>
+                  <Link href={`/stories/${folder?.file.split('.')[0]}`} className='font-semibold lg:text-xl text-md  font-mono hover:bg-blue-50'>.{folder?.title.slice(0, 100)}</Link>
                   <span className='text-sm text-gray-500 ml-2'>author: { folder?.authors[0] }</span>
                 </div>
 
