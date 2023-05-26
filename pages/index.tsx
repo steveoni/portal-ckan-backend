@@ -47,7 +47,7 @@ export default function Home() {
       </section>
       <section className='flex flex-col mx-auto w-[90%]  h-full min-h-[60vh] my-auto'>
         <div className='flex justify-center '>
-          <h3 className='bg-gradient-to-r from-blue-500 to-fuchsia-500 inline-block text-transparent bg-clip-text lg:text-5xl text-2xl tracking-tight font-mono'>Portal.js Ckan Backend</h3>
+          <h3 className='bg-gradient-to-r from-blue-500 to-fuchsia-500 inline-block text-transparent bg-clip-text sm:text-2xl lg:text-5xl  tracking-tight font-mono'>Portal.js Ckan Backend</h3>
         </div>
         <div className='flex justify-center   mt-8'>
          <p className='text-xl lg:text-2xl tracking-tighter italic font-normal leading-3 font-serif'>Search ckan backend data catalog.</p>
