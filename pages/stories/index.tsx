@@ -37,10 +37,10 @@ export default function index({ mdTags }) {
         </div>
       </section>
       <section className="bg-white my-4 rounded-lg mt-16 mx-auto w-[90%] p-4" >
-        <div className='flex lg:ml-80'>
+        <div className='flex lg:ml-56 2xl:ml-80'>
           <h1 className="text-4xl font-bold font-mono">./Stories</h1>
         </div>
-        <div className='flex flex-col lg:ml-96 ml-10 mt-12'>
+        <div className='flex flex-col lg:ml-60 2xl:ml-96 ml-10 mt-12'>
             {mdTags.map((folder) => (
               <>
                 <div className='flex flex-col mb-4'>
